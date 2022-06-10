@@ -21,6 +21,20 @@ cd src
 git clone https://github.com/SRAKIB17/ReactCustomIconsLibrary.git
 ```
 
+## How to Use It:
+Import from ReactCustomIconsLibrary
+```bash
+import {Home} from './ReactCustomIconsLibrary'
+```
+Like Component:
+```bash
+      <Home color='red' size='30'/>
+```
+| Props:       | Description                       | 
+| -------------| --------------------------------- |
+| color="red"  | set color                         |
+| size="20"    |`default(1em)` set width and height|
+
 
 
 
