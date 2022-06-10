@@ -18,7 +18,7 @@ cd src
 
  <b style='font-size:20px'> 2nd step: Run Cmd line:</b> 
 ```bash
-git clone https://github.com/SRAKIB17/ReactCustomIconLibrary.git
+git clone https://github.com/SRAKIB17/ReactCustomIconsLibrary.git
 ```
 
 
