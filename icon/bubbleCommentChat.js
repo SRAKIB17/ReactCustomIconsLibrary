@@ -10,4 +10,6 @@ const CommentChat = ({ color = 'currentColor', size = '1em', ...rest }) => {
     );
 };
 
+// https://github.com/SRAKIB17/ReactCustomIconsLibrary.git
+
 export default CommentChat;
