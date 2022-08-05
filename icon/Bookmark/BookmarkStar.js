@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FacebookSquare = ({ color = 'currentColor', size = '1em', ...rest }) => {
+const BookmarkStar = ({ color = 'currentColor', size = '1em', ...rest }) => {
     return (
         <svg
 
@@ -8,10 +8,14 @@ const FacebookSquare = ({ color = 'currentColor', size = '1em', ...rest }) => {
             width={size}
             height={size}
             fill={color}
-            {...rest} viewBox="0 0 455 455" >
-            <path d="M0,0v455h455V0H0z M301.004,125.217H265.44
-                c-7.044,0-14.153,7.28-14.153,12.696v36.264h49.647c-1.999,27.807-6.103,53.235-6.103,53.235h-43.798V385h-65.266V227.395h-31.771
-                v-53.029h31.771v-43.356c0-7.928-1.606-61.009,66.872-61.009h48.366V125.217z"/>
+            {...rest}
+            viewBox="0 0 490.6 490.6">
+            <g>
+                <path d="M393,0H97.6c-14,0-25.3,11.3-25.3,25.3v332.6c0,11.5,5.6,22.2,15,28.8l140.8,98.5c10.3,7.2,24.1,7.2,34.4,0l140.8-98.5
+                    c9.4-6.6,15-17.3,15-28.8V25.3C418.3,11.3,407,0,393,0z M351.5,189.9l-48.1,40.9l15,61.5c2.8,11.6-9.7,20.8-19.8,14.5l-53.3-33.5
+                    l-53.4,33.4c-10.1,6.3-22.6-2.9-19.8-14.5l15-61.5L139,189.8c-9-7.7-4.3-22.6,7.6-23.4l62.7-4.6l23.7-58.7c4.5-11,20-11,24.5,0
+                    l23.7,58.7l62.7,4.6C355.8,167.3,360.6,182.2,351.5,189.9z"/>
+            </g>
             <g>
             </g>
             <g>
@@ -44,8 +48,8 @@ const FacebookSquare = ({ color = 'currentColor', size = '1em', ...rest }) => {
             </g>
         </svg>
 
-
     );
 };
 // https://github.com/SRAKIB17/ReactCustomIconsLibrary.git
-export default FacebookSquare;
+
+export default BookmarkStar;

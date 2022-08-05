@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FacebookSquare = ({ color = 'currentColor', size = '1em', ...rest }) => {
+const Location = ({ color = 'currentColor', size = '1em', ...rest }) => {
     return (
         <svg
 
@@ -8,10 +8,14 @@ const FacebookSquare = ({ color = 'currentColor', size = '1em', ...rest }) => {
             width={size}
             height={size}
             fill={color}
-            {...rest} viewBox="0 0 455 455" >
-            <path d="M0,0v455h455V0H0z M301.004,125.217H265.44
-                c-7.044,0-14.153,7.28-14.153,12.696v36.264h49.647c-1.999,27.807-6.103,53.235-6.103,53.235h-43.798V385h-65.266V227.395h-31.771
-                v-53.029h31.771v-43.356c0-7.928-1.606-61.009,66.872-61.009h48.366V125.217z"/>
+            {...rest}
+            viewBox="0 0 330.001 330.001">
+            <g>
+                <path  d="M173.871,177.097c-2.641,1.936-5.756,2.903-8.87,2.903c-3.116,0-6.23-0.967-8.871-2.903L30,84.602
+                    L0.001,62.603L0,275.001c0.001,8.284,6.716,15,15,15L315.001,290c8.285,0,15-6.716,15-14.999V62.602l-30.001,22L173.871,177.097z"
+                />
+                <polygon points="165.001,146.4 310.087,40.001 19.911,40 	" />
+            </g>
             <g>
             </g>
             <g>
@@ -44,8 +48,8 @@ const FacebookSquare = ({ color = 'currentColor', size = '1em', ...rest }) => {
             </g>
         </svg>
 
-
     );
 };
 // https://github.com/SRAKIB17/ReactCustomIconsLibrary.git
-export default FacebookSquare;
+
+export default Location;

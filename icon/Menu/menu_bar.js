@@ -1,17 +1,19 @@
 import React from 'react';
 
-const FacebookSquare = ({ color = 'currentColor', size = '1em', ...rest }) => {
+const MenuBarCircle = ({ color = 'currentColor', size = '1em', ...rest }) => {
     return (
         <svg
-
             xmlns="http://www.w3.org/2000/svg"
             width={size}
             height={size}
             fill={color}
-            {...rest} viewBox="0 0 455 455" >
-            <path d="M0,0v455h455V0H0z M301.004,125.217H265.44
-                c-7.044,0-14.153,7.28-14.153,12.696v36.264h49.647c-1.999,27.807-6.103,53.235-6.103,53.235h-43.798V385h-65.266V227.395h-31.771
-                v-53.029h31.771v-43.356c0-7.928-1.606-61.009,66.872-61.009h48.366V125.217z"/>
+            {...rest}
+            viewBox="0 0 150 150" >
+            <g id="XMLID_240_">
+                <path d="M15,30h120c8.284,0,15-6.716,15-15s-6.716-15-15-15H15C6.716,0,0,6.716,0,15S6.716,30,15,30z" />
+                <path d="M135,60H15C6.716,60,0,66.716,0,75s6.716,15,15,15h120c8.284,0,15-6.716,15-15S143.284,60,135,60z" />
+                <path d="M135,120H15c-8.284,0-15,6.716-15,15s6.716,15,15,15h120c8.284,0,15-6.716,15-15S143.284,120,135,120z" />
+            </g>
             <g>
             </g>
             <g>
@@ -43,9 +45,8 @@ const FacebookSquare = ({ color = 'currentColor', size = '1em', ...rest }) => {
             <g>
             </g>
         </svg>
-
-
     );
 };
 // https://github.com/SRAKIB17/ReactCustomIconsLibrary.git
-export default FacebookSquare;
+
+export default MenuBarCircle;

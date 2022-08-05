@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FacebookSquare = ({ color = 'currentColor', size = '1em', ...rest }) => {
+const SearchIcon = ({ color = 'currentColor', size = '1em', ...rest }) => {
     return (
         <svg
 
@@ -8,10 +8,13 @@ const FacebookSquare = ({ color = 'currentColor', size = '1em', ...rest }) => {
             width={size}
             height={size}
             fill={color}
-            {...rest} viewBox="0 0 455 455" >
-            <path d="M0,0v455h455V0H0z M301.004,125.217H265.44
-                c-7.044,0-14.153,7.28-14.153,12.696v36.264h49.647c-1.999,27.807-6.103,53.235-6.103,53.235h-43.798V385h-65.266V227.395h-31.771
-                v-53.029h31.771v-43.356c0-7.928-1.606-61.009,66.872-61.009h48.366V125.217z"/>
+            {...rest}
+            viewBox="0 0 124.524 124.524">
+            <g>
+                <path d="M51,102.05c10.5,0,20.2-3.2,28.3-8.6l29.3,29.3c2.301,2.3,6.101,2.3,8.5,0l5.7-5.7c2.3-2.3,2.3-6.1,0-8.5L93.4,79.35
+		c5.399-8.1,8.6-17.8,8.6-28.3c0-28.1-22.9-51-51-51c-28.1,0-51,22.9-51,51C0,79.149,22.8,102.05,51,102.05z M51,20.05
+		c17.1,0,31,13.9,31,31c0,17.1-13.9,31-31,31c-17.1,0-31-13.9-31-31C20,33.95,33.9,20.05,51,20.05z"/>
+            </g>
             <g>
             </g>
             <g>
@@ -48,4 +51,5 @@ const FacebookSquare = ({ color = 'currentColor', size = '1em', ...rest }) => {
     );
 };
 // https://github.com/SRAKIB17/ReactCustomIconsLibrary.git
-export default FacebookSquare;
+
+export default SearchIcon;
