@@ -11,9 +11,13 @@ export { default as ArrowsCheck } from './icon/Arrow/ArrowsCheck'
 export { default as ArrowsRight } from './icon/Arrow/ArrowsRight'
 export { default as ArrowsRightDouble } from './icon/Arrow/ArrowsRightDouble'
 
+export { default as Bill } from './icon/Bill/Bill'
+
 export { default as BookmarkStar } from './icon/Bookmark/BookmarkStar'
 
 export { default as BubbleCommentChat } from './icon/Comment/bubbleCommentChat'
+export { default as CDN } from './icon/CDN/CDN'
+
 export { default as Comment } from './icon/Comment/comment'
 
 export { default as ChatForum } from './icon/ChatForum/ChatForum'
@@ -77,6 +81,7 @@ export { default as JavaScript } from './icon/WebDevelopment/JavaScript'
 export { default as Location } from './icon/Address/Location'
 export { default as Line } from './icon/Line/Line'
 export { default as Like } from './icon/Like/Like'
+export { default as Link } from './icon/Link/Link'
 export { default as EmoticonLove } from './icon/Like/EmoticonLove'
 
 // for linkdin 
@@ -127,6 +132,7 @@ export { default as Quote } from './icon/Quote'
 export { default as Refresh } from './icon/Refresh/Refresh'
 
 
+export { default as Services } from './icon/Services/Services'
 export { default as SkypeCircle } from './icon/Social/Skype/Skype_circle'
 export { default as SkypeSquare } from './icon/Social/Skype/Skype_square'
 
